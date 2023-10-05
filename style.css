@@ -240,7 +240,6 @@ span {
   flex-direction: column;
 
   gap: 1rem;
-  width: 100%
 }
 
 #rodape #footer-texts img {
@@ -278,9 +277,10 @@ span {
   gap: 1rem;
 }
 
-#rodape forma label {
-  font-size: 1.5rem;
-  max-width: 17rem;
+#rodape form label {
+  font-size: 1.3rem;
+  min-width: 15rem;
+  max-width: 25rem;
 }
 
 #rodape form input {
@@ -289,7 +289,13 @@ span {
   border: 2px solid var(--black-color);
   box-shadow: 4px 4px 0px 0px #1E1E1E;
 
-  max-width: 17rem;
+  min-width: 13rem;
+  max-width: 35rem;
+}
+
+#rodape form input:focus {
+  border: 2px solid var(--primary-color);
+  outline: 0;
 }
 
 #rodape form a {
@@ -357,7 +363,7 @@ span {
   }
 }
 
-@media screen and (width >= 2100px) {
+@media screen and (width >= 2000px) {
   #cabecalho nav {
     gap: 5rem;
   }
@@ -384,12 +390,6 @@ span {
   }
 }
 
-@media screen and (width >= 930px) {
-  #rodape {
-    /* display: flex; */
-  }
-}
-
 @media screen and (width >= 1222px) {
   #cards #conhecer {
     gap: 3rem;
@@ -399,7 +399,7 @@ span {
   }
 }
 
-@media screen and (width >= 876px) {
+@media screen and (width >= 700px) {
   #criar {
     display: flex;
     flex-wrap: wrap;
@@ -421,9 +421,8 @@ span {
   #criar {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
 
-    /* padding-left: 4rem; */
     width: 100%;
   }
 
@@ -437,5 +436,23 @@ span {
   
   #criar #conteudo-criar h1 {
     font-size: 3rem;
+  }
+}
+
+@media screen and (width >= 930px) {
+  #rodape {
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: space-around;
+
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+  }
+
+  #rodape form {
+    width: 40%;
+
+    gap: 2rem;
   }
 }
