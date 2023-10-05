@@ -2,7 +2,7 @@
 
 <p align="center"> Projeto criado com objetivo de aplicar estudo em HTML, CSS e JavaScript </p>
 
-<p align="center"><a href="https://gabrielroldann.github.io/TOMs-Page/">Veja o funcionamento do site aqui</a></p>
+<p align="center"><a target="_blank" href="https://gabrielroldann.github.io/TOMs-Page/">Veja o funcionamento do site aqui</a></p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -29,6 +29,8 @@ Esse projeto foi desenvolvido com:
 Visualização do layout do projeto:
 
 - <p><a href="https://www.figma.com/file/76GJ4uK7PyKeAo6dcpVyjA/Tom's-Jazz-School?type=design&node-id=0-1&mode=design&t=JbxEqiop2L1DpPx5-0">Layout Figma.</a></p>
+
+- É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
