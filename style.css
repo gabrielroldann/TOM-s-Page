@@ -111,6 +111,21 @@ span {
 #criar #conteudo-criar h1 {
   font-size: 2.5rem;
   font-weight: 900;
+  max-width: 17.5rem;
+}
+
+#criar #conteudo-criar p {
+  max-width: 20rem;
+}
+
+#criar #conteudo-criar #comecar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#criar #conteudo-criar #comecar a{
+  width: 12.5rem;
 }
 
 #criar .button {
@@ -157,13 +172,21 @@ span {
 
 }
 
-#cards h2 {
+#conhecer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+#conhecer h2 {
   text-align: center;
   margin: 4rem auto 0;
   font-size: 2.5rem;
 }
 
-#cards a.button {
+#conhecer a {
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -345,5 +368,74 @@ span {
   #cabecalho .button {
     padding: 0.9rem 2rem;
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (width >= 640px) {
+  #cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .card-bg-color {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (width >= 930px) {
+  #rodape {
+    /* display: flex; */
+  }
+}
+
+@media screen and (width >= 1222px) {
+  #cards #conhecer {
+    gap: 3rem;
+  }
+  #cards #conhecer h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (width >= 876px) {
+  #criar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #criar #conteudo-criar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8rem;
+  }
+}
+
+@media screen and (width >= 1440px) {
+  #criar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    /* padding-left: 4rem; */
+    width: 100%;
+  }
+
+  #criar #conteudo-criar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 2rem;
+  }
+  
+  #criar #conteudo-criar h1 {
+    font-size: 3rem;
   }
 }
