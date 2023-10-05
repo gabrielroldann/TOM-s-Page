@@ -201,11 +201,21 @@ span {
   padding: 2rem 0 0 2rem;
   max-width: 17rem;
 
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .card-bg-color {
   background-color: var(--secundary-color);
   align-self: end;
+}
+
+.card-bg-color:hover {
+  transform: translateY(10px);
 }
 
 .card a {
