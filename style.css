@@ -140,6 +140,8 @@ span {
   right: -4rem;
   height: 48px;
   width: 132px;
+
+  pointer-events: none;
 }
 
 .enfase {
