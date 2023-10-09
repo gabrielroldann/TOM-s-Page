@@ -2,7 +2,7 @@
 
 <p align="center"> Projeto criado com objetivo de aplicar estudo em HTML, CSS e JavaScript </p>
 
-<p align="center"><a target="_blank" href="https://gabrielroldann.github.io/TOMs-Page/">Veja o funcionamento do site aqui</a></p>
+<p align="center"><a target="_blank" href="https://gabrielroldann.github.io/TOMs-Page-Responsive/">Veja o funcionamento do site aqui</a></p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
